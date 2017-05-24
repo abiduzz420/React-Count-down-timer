@@ -35,7 +35,8 @@ class App extends React.Component {
             onChange={(event) =>
               this.setState({
               newDeadline :event.target.value})}/>
-          <Button onClick={() => this.updateDeadline()}>Submit new deadline</Button>
+          <Button
+            onClick={() => this.updateDeadline()}>Submit new deadline</Button>
         </Form>
       </div>
     );

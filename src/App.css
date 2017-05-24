@@ -1,3 +1,6 @@
+.Body-div{
+  background-color: #03A9F4;
+}
 .App{
   font-size: 35px;
   text-align: center;
@@ -8,6 +11,7 @@
   font-size: 50px;
   font-style: normal;
   font-weight: bold;
+  text-shadow: 1px 1px;
 }
 
 .Clock-minutes,.Clock-hours,.Clock-seconds,.Clock-days {
