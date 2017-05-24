@@ -6,10 +6,16 @@
 
 .Title{
   font-size: 50px;
-  font-style: oblique;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .Clock-minutes,.Clock-hours,.Clock-seconds,.Clock-days {
   display: inline;
   margin:10px;
+}
+
+.Deadline-input{
+  font-size: 25px;
+  margin: 10px;
 }
